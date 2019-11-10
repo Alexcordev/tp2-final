@@ -1,0 +1,306 @@
+* {
+
+   box-sizing: border-box;
+    padding: 0;
+
+}
+
+body {
+
+    margin: auto;
+    background-color:  #99BBDD;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+
+}
+
+.conteneur-principal {
+
+    margin: 40px auto 100px auto;
+    background-color: #ffffff;
+    width: 920px;
+    height: auto;
+    
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+
+/* Élément Header */
+
+.conteneur-header {
+    position:absolute;
+}
+
+#image_header {
+    width:100%;
+}
+
+header {
+    margin-bottom : -130px;
+}
+
+h1 {
+    position: relative;
+    bottom:155px;
+    left: 10px;
+    font-size: 50px;
+    color: #ffff00;
+    font-weight: bold;
+    z-index: 1;
+}
+
+img {
+
+    width: 100%;
+  
+}
+
+/* Élément nav */
+
+#table1 {
+    line-height: 25px;
+    width:100%;
+    text-align: center;
+    border: none;
+    background-color: #ffff00;
+    font-weight: 600;
+}
+
+.link_menu {
+
+    background-color: #ffff00;
+    padding: 8px;
+    
+}
+
+.col {
+    border: none;
+}
+
+.active {
+    text-decoration: none;
+}
+
+/* lien non visité */
+nav a:link {
+    color: #0000ff;
+}
+
+/* lien visité */
+nav a:visited  {
+    color: #990099;
+   
+}
+
+/* mouse over */
+nav a:hover {
+  color: #ff9900;
+  
+}
+
+/* lien sélectionné */
+nav a:active {
+  color: #ffffff;
+ 
+}
+
+.a {
+    
+    margin: 0px auto 5px auto;
+    
+}
+
+/* page tp2.html */
+
+.no-style {
+
+    list-style: none;
+    width: 200px;
+    background-color: #ccc;
+    margin: 20px auto 20px 60px;
+
+}    
+
+.element {
+    margin-left: 45px;
+}   
+    
+main a:link {
+    color: #ff0000;
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+main a:visited {
+    color: #9933ff;
+}
+
+main a:hover {
+    color: #ffff00;
+    text-decoration: none ;
+        
+}    
+    
+main a:active {
+    color: #ff0000;
+    text-decoration: none ;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+    
+.text{
+
+    margin: 20px auto 20px 20px;
+}
+
+.bottom {
+    margin: 20px auto auto 20px;
+}
+    
+p a:link {
+    text-decoration: underline;
+}
+
+/* Élément main de la page previsions */
+
+#table2 {
+    border-collapse: collapse;
+    border-left: 2px #000000 solid;
+    border-bottom: 2px #000000 solid;
+    border-right: 5px #000000 solid;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#rday {
+    
+    border-top: 5px #000000 solid;
+    border-right: 1px #ffffff solid;
+    background-color: #33cccc;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 24px;
+    
+
+}
+
+ 
+#rcol {
+
+    border-left: 2px #000000 solid;
+    border-bottom: 2px #000000 solid;
+    
+    
+}
+
+.icone {
+
+    width: 80px;
+    margin: auto;
+    background-color: #000000;
+}
+
+
+#temp_min {
+    color: #0000ff;
+   
+}
+
+#temp_max {
+    color: #ff0000;
+}
+
+
+/* Page Commentaires */
+
+.conteneur-form {
+    padding-bottom: 25px;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+    margin:5px auto 2px 118px;
+
+}
+
+input {
+    margin: auto auto 2px 180px;
+
+}
+
+#adresse {
+    margin-left:155px;
+}
+
+#align {
+
+    vertical-align: 50px;
+}
+
+.margin5px {
+    margin-left: 5px;
+
+}
+
+button {
+
+    padding: 2px 7px 0px 7px;
+    border: none;
+}
+
+/* Footer */
+
+.conteneur_footer {
+    background-color: #59c6f1;
+    width: 100%;
+        
+}
+
+#table3 {
+    height: auto;
+    width:100%;
+    text-align: center;
+    border: none;
+    background-color: rgb(156, 213, 252);
+    padding-bottom: 5px;
+    
+}
+
+.col1 {
+    width:185px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.col2 {
+    width:185px;
+    text-align:right;
+    vertical-align: top;
+}
+
+.image {
+    width: 80px;
+    height: 15px;
+    
+}
+
+#lienFooter {
+
+    color: #6600cc;
+}
+
+#element1 {
+    text-decoration: none;
+}
+
+
+
+
+

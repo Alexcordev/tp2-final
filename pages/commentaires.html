@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Commentaires</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+        
+        <div class="conteneur-principal">
+            <header>
+                <div id="conteneur-header">
+                    <img id="image_header" src="../images/nuages_708.jpg" alt="images">
+                    <h1>M&Eacute;T&Eacute;O IFT1144</h1>
+                           
+                </div> 
+            </header>
+            <nav>
+                <table id="table1">
+                    <tr class="link_menu">
+                         <td class="col" colspan="1"><a href="../tp2.html" rel="noopener noreferrer">Accueil</a></td>
+                         <td class="col" colspan="1"><a href="previsions.html" rel="noopener noreferrer">Pr&eacute;visions</a></td>
+                         <td class="col" colspan="1"><a class="active" href="commentaires.html" rel="noopener noreferrer">Commentaires</a></td>
+                    </tr>
+  
+                </table>
+
+             </nav>
+
+             <main class="commentaire">
+
+                <p>Envoyez-nous vos commentaires</p>
+
+                <div class="conteneur-form">
+
+                    <form action="http://www.iro.umontreal.ca/~pilona/cgi-bin/pilona.cgi" method="post">
+               
+                        <label class="margin5px" for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom"> <br/>
+                        <label class="margin5px" for="nom">Adresse</label>  
+                        <input type="text" name="adresse" id="adresse"> <br/>
+                        <label class="margin5px" id="align" for="commentaire">Commentaire</label>
+                        <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea><br>
+                                      
+                        <button type="submit">Envoyer</button>
+                        <button type="reset">Effacer</button>
+                                 
+                    </form>
+
+                </div>   
+
+            </main>
+
+            <footer>
+
+                <div class="conteneur_footer">
+                    <table id="table3">
+  
+                        <tr>
+                            <td class="col1" rowspan="3"><a href="http://validator.w3.org/check/referer" target="_blank"><img class="image" src="../images/valid_html_blue.png"></a></td>
+                            <td class="fusion" rowspan="1">Alexandre Cormier</td>
+                            <td class="col2" rowspan="3"><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img class="image" src="../images/valid_css_blue.png"></a></td>
+                                          
+                        </tr>
+                        <tr>
+                            <td class="col3" colspan="1">
+        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1"><a id="lienFooter" href="http://www-desi.iro.umontreal.ca/~cormiea/ift1144/tp2/tp2.html" rel="noopener noreferrer">http://www-desi.iro.umontreal.ca/~cormiea/ift1144/tp2/tp2.html</a></td>
+                                          
+                        </tr>
+                                    
+                    </table>
+                
+                </div>
+
+            </footer>
+
+        </div>
+
+    
+</body>
+
+</html>
